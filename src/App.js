@@ -24,7 +24,7 @@ class App extends Component {
               render={props => (
                 <Header
                   handleSubmit={this.handleSubmit}
-                  history={props.history}
+                  histor={props.history}
                 />
               )}
             />
